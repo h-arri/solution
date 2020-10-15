@@ -1,6 +1,10 @@
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
-### Tech-stack:
+## Tech-stack:
     TypeScript, React, React-router-dom, Redux, Redux Thunk, axios and moment
+## Steps to run
+    run `git clone git@github.com:h-arri/solution.git` to clone the repo
+    run `yarn install` to install all the dependencies
+        
 ## Available Scripts
 
 In the project directory, you can run:
