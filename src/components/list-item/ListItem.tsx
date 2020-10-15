@@ -25,16 +25,20 @@ const ListItem: React.FC<ListItemProps>
             {historicEvent.title}</h2>
         <p className='details'>{historicEvent.details}</p>
         <aside className='links'>
-            {historicEvent.links.reddit && <a href={historicEvent.links.reddit} target='_blank'>
+            {historicEvent.links.reddit &&
+            <a href={historicEvent.links.reddit} target='_blank' rel='noopener noreferrer'>
                 <Icon icon={Reddit} alt="Reddit"/>
             </a>}
-            {historicEvent.links.article && <a href={historicEvent.links.article} target='_blank'>
+            {historicEvent.links.article &&
+            <a href={historicEvent.links.article} target='_blank' rel='noopener noreferrer'>
                 <Icon icon={Article} alt="Article"/>
             </a>}
-            {historicEvent.links.wikipedia && <a href={historicEvent.links.wikipedia} target='_blank'>
+            {historicEvent.links.wikipedia && <a href={historicEvent.links.wikipedia} target='_blank'
+                                                 rel='noopener noreferrer'>
                 <Icon icon={Wikipedia} alt="Wikipedia"/>
             </a>}
-            {historicEvent.links.video_link && <a href={historicEvent.links.video_link} target='_blank'>
+            {historicEvent.links.video_link &&
+            <a href={historicEvent.links.video_link} target='_blank' rel='noopener noreferrer'>
                 <Icon icon={YouTube} alt="YouTube"/>
             </a>}
             <aside className='read-more'>
