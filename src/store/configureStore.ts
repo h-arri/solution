@@ -1,7 +1,5 @@
-import {createStore, applyMiddleware, Store} from "redux";
-// eslint-disable-next-line @typescript-eslint/ban-ts-comment
-// @ts-ignore
-import { composeWithDevTools } from "redux-devtools-extension";
+import {applyMiddleware, createStore, Store} from "redux";
+import {composeWithDevTools} from "redux-devtools-extension";
 import reduxThunk from "redux-thunk";
 import {rootReducer, RootState} from "./index";
 

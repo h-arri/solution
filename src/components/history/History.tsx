@@ -12,7 +12,6 @@ const History: React.FC = () => {
 
     const [filteredHistoricEvents, setFilteredHistoricEvents] = useState<HistoricEvent[]>(historicEvents);
 
-
     async function getHistory() {
         await dispatch(fetchHistoryApi());
     }

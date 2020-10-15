@@ -3,7 +3,7 @@
     flex-direction: column;
     width: 40vw;
     padding: 2%;
-    background: #fff;
+    background: #ffffff;
     border: solid 1px #00675a;
 }
 
@@ -24,10 +24,7 @@
     cursor: pointer;
 }
 
-.hide-divider {
-    border: none;
-}
-
-.no-data {
-    justify-content: center;
+.list-item:hover a:link,
+.list-item:hover a:visited {
+    color: #ffffff;
 }

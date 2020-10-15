@@ -1,5 +1,6 @@
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
-
+### Tech-stack:
+    TypeScript, React, React-router-dom, Redux, Redux Thunk, axios and moment
 ## Available Scripts
 
 In the project directory, you can run:

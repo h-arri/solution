@@ -13,9 +13,9 @@ const List: React.FC<ListProps> = (props) => {
 
     return (<ul className={classes}>
         {
-            historicEvents?.map((item, index) => {
+            historicEvents?.map((event, index) => {
                 classes = index < historicEvents.length - 1 ? 'list-item' : 'list-item hide-divider';
-                return <ListItem key={item.id} className='list-item' historicEvent={item}/>;
+                return <ListItem key={event.id} className={classes} historicEvent={event}/>;
             })}
     </ul>);
 };

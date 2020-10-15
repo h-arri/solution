@@ -21,7 +21,8 @@ const Search: React.FC<SearchProps> = React.memo((props) => {
     return (<>
         <input className={classes} placeholder='Search'
                value={searchText} onChange={handleChange}/>
-        {searchText !== '' && className === 'error' && <span className='error-message'>Please use a better search term!</span>}
+        {searchText !== '' && className === 'error' &&
+        <span className='error-message'>Please use a better search term!</span>}
     </>)
 });
 

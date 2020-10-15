@@ -15,3 +15,15 @@
 .links > a {
     margin: 2% 2% 0;
 }
+
+.read-more {
+    margin: 4%;
+}
+
+.read-more a:link {
+    color: #00675a;
+}
+
+.read-more a:visited {
+    color: #00675a;
+}
