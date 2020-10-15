@@ -1,0 +1,17 @@
+.search-input {
+    height: 4vw;
+    width: 42vw;
+    font-size: 2vw;
+    padding-left: 1.5%;
+    color: #00675a;
+    margin: 2%;
+}
+
+.error {
+    color: red;
+}
+
+.error-message {
+    margin-top: -25px;
+    color: red;
+}
