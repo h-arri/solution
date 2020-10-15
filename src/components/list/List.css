@@ -1,0 +1,34 @@
+.list {
+    display: flex;
+    flex-direction: column;
+    width: 40vw;
+    padding: 2%;
+    background: #fff;
+    border: solid 1px #00675a;
+}
+
+.list-item {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    font-size: 1.3vw;
+    color: #00675a;
+    border-bottom: solid 1px #00675a;
+    text-align: initial;
+    padding-left: 2%;
+}
+
+.list-item:hover {
+    background-color: #00675a;
+    color: #ffffff;
+    transition: 0.4s;
+    cursor: pointer;
+}
+
+.hide-divider {
+    border: none;
+}
+
+.no-data {
+    justify-content: center;
+}
